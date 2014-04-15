@@ -1,0 +1,283 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+.navbar-inverse {
+	background-color: #3e8cfe;
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color: white;
+}
+body {
+	font-family: 'PT Sans', Verdana, sans-serif;
+	background-color: black;
+}
+fieldset {
+	margin-bottom: .5em;
+}
+
+body #main-wrapper {
+	padding-top: 80px;
+}
+a {
+	color: #3e8cfe;
+}
+#content {
+	background-image: url('../img/semitransparent.png');
+	padding: .5em;
+	padding-bottom: 0;
+	color: #EBEBEB;
+	border-radius: .5em;
+}
+#content > h1 a, #content > h2 a, #content > h3 a, #content > h4 a {
+	color: white;
+}
+.content-block {
+	background: #404040;
+	padding: 1em;
+	margin-bottom: .5em;
+}
+.content-block.no-background {
+	background: none;
+}
+.content-block > h2:first-child, #content h2:first-child {
+	margin-top: 0;
+}
+.content-block table {
+	color: #4F4F4F;
+	background-color: white;
+}
+.content-block.login {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-block legend {
+	color: inherit;
+}
+.btn.btn-default {
+	background-color: #3e8cfe;
+	color: #EEEEEE;
+	border-color: #217AFB;
+}
+.btn.btn-default:hover {
+	color: white;
+}
+table img {
+	max-width: 100%;
+}
+.offers table img {
+	max-width: 25%;
+}
+.tab-content {
+	background-color: white;
+	padding: .5em;
+	color: black;
+}
+
+/*** User profile page ***/
+.user-profile {
+	position: relative;
+	color: white;
+}
+.user-profile a {
+	color: inherit;
+}
+.user-profile .cover-photo {
+	height: 20em;
+	background: no-repeat center bottom black;
+	border-radius: .5em .5em 0em 0em;
+}
+
+.user-profile .content {
+}
+
+.user-profile .user-bio {
+	background-color: white;
+	color: black;
+	padding: .75em;
+	padding-bottom: 0;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .35);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .35);
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, .35);
+}
+.user-profile .name {
+	background-color: #3e8cfe;
+	color: white;
+	margin-left: -.75em;
+	margin-right: -.75em;
+	margin-top: -.75em;
+	padding: .25em;
+}
+.user-profile .name h2,.user-profile .name h3  {
+	margin-top: 0;
+	margin-bottom: 0.1em;
+}
+.user-profile .name h2 {
+	font-size: 2em;
+}
+.user-profile .name h3 {
+	font-size: 1.1em;
+}
+.user-profile .name h3:before {
+	content: '@';
+}
+.user-profile .name a:hover {
+	text-decoration: none;
+}
+.user-profile .user-bio .picture {
+	max-width: 10em;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	-webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, .35);
+	-moz-box-shadow: 3px 3px 15px rgba(0, 0, 0, .35);
+	box-shadow: 3px 3px 15px rgba(0, 0, 0, .35);
+	border: .25em solid white;
+}
+.user-profile .user-bio .picture img {
+	max-width: 100%;
+}
+.user-profile .user-bio .category-box {
+	padding: 0.75em;
+}
+.user-profile .user-bio .categories {
+	margin-bottom: 0;
+}
+.user-profile .user-bio .bio {
+	padding: 1em;
+}
+.user-profile .user-bio .status-box, .user-profile .user-bio .category-box {
+	clear: both;
+	margin-left: 0;
+	margin-right: 0;
+	background-color: #fb3c5f;
+	color: #FFFFFF;
+	margin-left: -.75em;
+	margin-right: -.75em;
+}
+.user-profile .user-bio .status-box {
+	background-color: #ececec;
+	color: #9e9d9e;
+}
+.user-profile .user-bio .status-box div  {
+	padding: 1em;
+	text-align: center;
+	font-size: .8em;
+}
+.user-profile .user-bio .status-box div .title {
+	display: block;
+}
+.user-profile .user-bio .status-box div .count {
+	display: block;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.status-box .btn:hover {
+	background-color: white;
+	color: black;
+}
+.user-profile .campaigns {
+}
+.user-profile .link-list li {
+	border-top: none;
+}
+
+/* Campaigns style */
+.campaigns {
+	margin-top: 1em;
+}
+.campaign {
+	text-align: center;
+	background: white;
+	padding: .5em;
+	margin-bottom: 1em;
+}
+.campaign img {
+	max-width: 100%;
+}
+.campaign {
+	color: black;
+}
+.campaign .caption {
+	margin-top: .5em;
+	text-align: center;
+	font-weight: bold;
+}
+.campaign .purchase-bar .btn {
+	opacity: 0.4;
+}
+.campaign .purchase-bar .btn:hover {
+	opacity: 1;
+	text-decoration: none;
+}
+/* Miniature view styles */
+.user-profile.mini-view .cover-photo, .user-profile.mini-view .category-box,
+.user-profile.mini-view .bio, .user-profile.mini-view .link-list {
+	display: none;
+}
+.user-profile.mini-view .picture {
+	max-width: 3em;
+	margin-bottom: 0;
+}
+.user-profile.mini-view .name {
+	background: url('../img/logo-mini.png') no-repeat right 5px #3e8cfe;
+	min-height: 40px;
+}
+.user-list {
+	margin-top: 1.5em;
+}
+/* Scale down when contained in a column div */
+div[class*='col-'] .user-profile {
+	font-size: .7em;
+}
+div[class*='col-'] .user-profile .content {
+}
+div[class*='col-'] .user-profile .user-bio {
+	position: relative;
+	top: auto;
+	left: auto;
+}
+div[class*='col-'] .user-profile .categories {
+	display: none;
+}
+
+.form-actions {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*** Admin backend ***/
+div.actions {
+	background-color: #404040;
+	color: #EBEBEB;
+	width: 30%;
+	float: left;
+	margin-bottom: .5em;
+	padding: 1em;
+}
+
+/** Offers page **/
+
+/** Footer **/
+footer {
+	background: black;
+	padding: .5em;
+	margin-top: 1em;
+	color: #666666;
+}
+footer a {
+	color: #999999;
+}
+footer a:hover {
+	color: white;
+}
+
+/** Message Styles **/
+.message {
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
